@@ -1,4 +1,4 @@
-FROM php:7.3.11-apache
+FROM php:7.4.9-apache
 
 ENV APACHE_CERTIFICATE="/etc/ssl/private/ssl-cert-snakeoil.key"
 ENV APACHE_CERTIFICATE_PRIVATE="/etc/ssl/certs/ssl-cert-snakeoil.pem"
